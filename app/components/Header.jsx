@@ -1,7 +1,9 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 export default function Header() {
+  const router = useRouter();
   const [grammerTools, setGrammerTools] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
@@ -69,7 +71,10 @@ export default function Header() {
           <button className="text-[15px] hover:text-[blue] p-[10px]">
             FAQ
           </button>
-          <button className="text-[15px] hover:text-[blue] p-[10px]">
+          <button
+            className="text-[15px] hover:text-[blue] p-[10px]"
+            onClick={() => router.push("/contact")}
+          >
             Contact
           </button>
         </div>

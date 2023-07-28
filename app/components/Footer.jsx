@@ -3,7 +3,7 @@ export default function Footer() {
     year: "numeric",
   }).format(new Date());
   return (
-    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 ">
+    <div class="bg-white rounded-lg shadow dark:bg-gray-900 ">
       <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a href="/" class="flex items-center mb-4 sm:mb-0">
@@ -35,6 +35,6 @@ export default function Footer() {
           . All Rights Reserved.
         </span>
       </div>
-    </footer>
+    </div>
   );
 }

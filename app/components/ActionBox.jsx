@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Tooltip from "../components/Tooltip";
 import toast from "react-hot-toast";
 
@@ -16,34 +16,11 @@ export default function ActionBox({
   setActiveFontSize,
   activeFontFamily,
   setActiveFontFamily,
+  grammerCheck,
+  setGrammerCheck,
+  autoSave,
+  setAutoSave,
 }) {
-  const [autoSave, setAutoSave] = useState(() => {
-    if (typeof window !== "undefined") {
-      const savedValue = localStorage.getItem("autoSave");
-      return savedValue !== null ? JSON.parse(savedValue) : true;
-    }
-    return true;
-  });
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      localStorage.setItem("autoSave", JSON.stringify(autoSave));
-    }
-  }, [autoSave]);
-
-  const [grammerCheck, setGrammerCheck] = useState(() => {
-    if (typeof window !== "undefined") {
-      const savedValue = localStorage.getItem("grammerCheck");
-      return savedValue !== null ? JSON.parse(savedValue) : true;
-    }
-    return true;
-  });
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      localStorage.setItem("grammerCheck", JSON.stringify(grammerCheck));
-    }
-  }, [grammerCheck]);
   return (
     <div
       className="xl:absolute w-[fit-content] xl:w-[50px] bg-white left-[-85px] gap-[15px] xl:gap-[10px] flex xl:flex-col items-center px-[15px] xl:px-[0] py-[10px] xl:py-[15px] rounded-[4px] shadow-lg  mb-5 xl:mb-0"

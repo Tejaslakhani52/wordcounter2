@@ -5,6 +5,7 @@ import { commonWords } from "./constants/commonWords";
 import KeywordAction from "./components/KeywordAction";
 import { Grammarly, GrammarlyEditorPlugin } from "@grammarly/editor-sdk-react";
 import toast from "react-hot-toast";
+import WhatWordCounter from "./components/WhatWordCounter";
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -24,9 +25,10 @@ export default function Home() {
   const [activeFontFamily, setActiveFontFamily] = useState(
     "'Inter', sans-serif"
   );
-
   const [grammerCheck, setGrammerCheck] = useState(true);
-  console.log("grammerCheck: ", activeFontSize);
+  const [autoSave, setAutoSave] = useState(true);
+
+  console.log("grammerCheck: ", grammerCheck);
 
   const handleCopyClick = async () => {
     try {
@@ -53,9 +55,9 @@ export default function Home() {
 
   useEffect(() => {
     const autoSave = localStorage.getItem("autoSave");
-    const isAutoSaveOn = autoSave !== null ? JSON.parse(autoSave) : true;
+    console.log("autoSavesss: ", autoSave);
 
-    if (isAutoSaveOn) {
+    if (autoSave === "true") {
       const savedText = localStorage.getItem("text");
       setText(savedText || "");
     } else {
@@ -68,14 +70,6 @@ export default function Home() {
       localStorage.getItem("activeFontFamily") || "'Inter', sans-serif"
     );
   }, []);
-
-  useEffect(() => {
-    const grammerCheck = localStorage.getItem("grammerCheck");
-    const isGrammerCheckOn =
-      grammerCheck !== null ? JSON.parse(grammerCheck) : true;
-
-    setGrammerCheck(isGrammerCheckOn);
-  }, [text]);
 
   useEffect(() => {
     localStorage.setItem("text", text);
@@ -247,7 +241,7 @@ export default function Home() {
   return (
     <Grammarly clientId={"client_BG3SNYF36Rc4mSdeziduFY"}>
       <div>
-        <div className="pt-[20px] pb-[80px] lg:pt-[50px]">
+        <div className="pt-[20px] pb-[50px] lg:pt-[50px]">
           <div className="block xl:hidden w-[95%] md:w-[85%] xl:w-[70%] mx-auto">
             <ActionBox
               setText={setText}
@@ -255,6 +249,10 @@ export default function Home() {
               setActiveFontSize={setActiveFontSize}
               activeFontFamily={activeFontFamily}
               setActiveFontFamily={setActiveFontFamily}
+              grammerCheck={grammerCheck}
+              setGrammerCheck={setGrammerCheck}
+              autoSave={autoSave}
+              setAutoSave={setAutoSave}
             />
           </div>
           <div
@@ -268,6 +266,10 @@ export default function Home() {
                 setActiveFontSize={setActiveFontSize}
                 activeFontFamily={activeFontFamily}
                 setActiveFontFamily={setActiveFontFamily}
+                grammerCheck={grammerCheck}
+                setGrammerCheck={setGrammerCheck}
+                autoSave={autoSave}
+                setAutoSave={setAutoSave}
               />
             </div>
             <div
@@ -454,6 +456,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <WhatWordCounter />
       </div>
     </Grammarly>
   );
