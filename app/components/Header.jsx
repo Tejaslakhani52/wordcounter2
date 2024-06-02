@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 
 export default function Header() {
   const router = useRouter();
-  const currentPath = window.location.pathname;
+  // const currentPath = window.location.pathname;
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
     <div
@@ -37,7 +37,7 @@ export default function Header() {
         <div className="hidden gap-[40px] md:flex">
           <button
             className="text-[15px] hover:text-[blue] p-[10px]"
-            style={{ color: currentPath === "/blog" ? "blue" : "" }}
+            // style={{ color: currentPath === "/blog" ? "blue" : "" }}
             onClick={() =>
               (window.location.href = "https://thewordcounter.online/blog")
             }
@@ -46,7 +46,7 @@ export default function Header() {
           </button>
           <button
             className="text-[15px] hover:text-[blue] p-[10px]"
-            style={{ color: currentPath === "/grammar" ? "blue" : "" }}
+            // style={{ color: currentPath === "/grammar" ? "blue" : "" }}
             onClick={() => {
               router.push("/grammar");
             }}
@@ -55,14 +55,14 @@ export default function Header() {
           </button>
           <button
             className="text-[15px] hover:text-[blue] p-[10px]"
-            style={{ color: currentPath === "/faqs" ? "blue" : "" }}
+            // style={{ color: currentPath === "/faqs" ? "blue" : "" }}
             onClick={() => router.push("/faqs")}
           >
             FAQ
           </button>
           <button
             className="text-[15px] hover:text-[blue] p-[10px]"
-            style={{ color: currentPath === "/contact" ? "blue" : "" }}
+            // style={{ color: currentPath === "/contact" ? "blue" : "" }}
             onClick={() => router.push("/contact")}
           >
             Contact
@@ -94,7 +94,7 @@ export default function Header() {
             </button>
             <button
               className="text-[15px] hover:text-[blue] p-[10px]"
-              style={{ color: currentPath === "/blog" ? "blue" : "" }}
+              // style={{ color: currentPath === "/blog" ? "blue" : "" }}
               onClick={() =>
                 (window.location.href = "https://thewordcounter.online/blog")
               }
@@ -103,7 +103,7 @@ export default function Header() {
             </button>
             <button
               className="text-[15px] hover:text-[blue] p-[10px]"
-              style={{ color: currentPath === "/grammar" ? "blue" : "" }}
+              // style={{ color: currentPath === "/grammar" ? "blue" : "" }}
               onClick={() => {
                 router.push("/grammar");
                 setMobileMenu(false);
@@ -113,7 +113,7 @@ export default function Header() {
             </button>
             <button
               className="text-[15px] hover:text-[blue] p-[10px]"
-              style={{ color: currentPath === "/faqs" ? "blue" : "" }}
+              // style={{ color: currentPath === "/faqs" ? "blue" : "" }}
               onClick={() => {
                 router.push("/faqs");
                 setMobileMenu(false);
@@ -123,7 +123,7 @@ export default function Header() {
             </button>
             <button
               className="text-[15px] hover:text-[blue]  p-[10px]"
-              style={{ color: currentPath === "/contact" ? "blue" : "" }}
+              // style={{ color: currentPath === "/contact" ? "blue" : "" }}
               onClick={() => {
                 router.push("/contact");
                 setMobileMenu(false);
