@@ -84,7 +84,7 @@ export default function Download() {
   };
 
   return (
-    <div className="w-[75%] mx-auto py-8">
+    <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
       {!data && (
         <>
           <h1 className="text-[25px] font-semibold text_linear text-center mb-3">
@@ -93,7 +93,7 @@ export default function Download() {
           <p className="text-center">
             Convert and download Facebook videos in MP4, MP3 for free
           </p>
-          <div className="flex w-[70%] mx-auto my-5 border_linear shadow-lg">
+          <div className="flex w-[70%] mx-auto my-5 border_linear shadow-lg max-sm:w-full">
             <div className="flex w-full ">
               <div className="w-full">
                 <input
@@ -104,13 +104,13 @@ export default function Download() {
                   onChange={handleInputChange}
                 />
               </div>
-              <div className="flex items-center justify-center bg-white cursor-pointer">
+              {/* <div className="flex items-center justify-center bg-white cursor-pointer">
                 <i class="fa-solid fa-clipboard text-[20px] px-[20px]"></i>
-              </div>
+              </div> */}
             </div>
             <div className="">
               <button
-                className="bg_linear  text-white px-[45px] py-[12px]"
+                className="bg_linear text-white px-[45px] max-sm:px-[20px] py-[12px] max-sm:py-[7px]"
                 onClick={handleDownload}
               >
                 Download
