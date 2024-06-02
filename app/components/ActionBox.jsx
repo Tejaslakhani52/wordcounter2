@@ -31,67 +31,6 @@ export default function ActionBox({
           <div
             className="opacity-70 relative"
             onClick={() => {
-              setAutoSave(!autoSave);
-              toast.success(
-                autoSave ? "Autosave desabled " : "Autosave enabled"
-              );
-            }}
-          >
-            <i class="fa-regular fa-floppy-disk text-[22px]"></i>
-            {autoSave ? (
-              <i class="fa-solid fa-check text-[7px] text-white absolute p-[2px] rounded-[50%] bg-[#005FE4] bottom-[1px] right-[-3px]"></i>
-            ) : (
-              <i class="fa-solid fa-xmark text-[7px] text-white absolute p-[2px] rounded-[50%] bg-slate-400	 bottom-[1px] right-[-3px]"></i>
-            )}
-          </div>
-        }
-      >
-        <p className="opacity-70">
-          Autosave is
-          <span className="text-[17px] font-bold">
-            {autoSave ? " ON" : " OFF"}
-          </span>
-        </p>
-      </Tooltip>
-
-      <div className="divider" />
-
-      <Tooltip
-        button={
-          <div
-            className="opacity-70 relative"
-            onClick={() => {
-              setGrammerCheck(!grammerCheck);
-              toast.success(
-                grammerCheck
-                  ? "Grammer checking desabled "
-                  : "Grammer checking enabled"
-              );
-            }}
-          >
-            <i class="fa-solid fa-spell-check text-[22px]"></i>
-            {grammerCheck ? (
-              <i class="fa-solid fa-check text-[7px] text-white absolute p-[2px] rounded-[50%] bg-[#005FE4] bottom-[1px] right-[-3px]"></i>
-            ) : (
-              <i class="fa-solid fa-xmark text-[7px] text-white absolute p-[2px] rounded-[50%] bg-slate-400	 bottom-[1px] right-[-3px]"></i>
-            )}
-          </div>
-        }
-      >
-        <p className="opacity-70">
-          Grammar check is
-          <span className="text-[17px] font-bold">
-            {grammerCheck ? " ON" : " OFF"}
-          </span>
-        </p>
-      </Tooltip>
-      <div className="divider" />
-
-      <Tooltip
-        button={
-          <div
-            className="opacity-70 relative"
-            onClick={() => {
               setText("");
               toast.success("Editor cleard");
               localStorage.setItem("text", "");

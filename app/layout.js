@@ -9,9 +9,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "WordCounter - Count Words &amp; Correct Writing",
-  description:
-    "Instantly counting a word or character can easy with our online word, paragraph, sentence and character counter tool. Our online word editor or counter tool can help to check grammar mistakes and summarize text.",
+  title: "Facebook Downloader",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
@@ -41,7 +40,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="mt-[80px]">{children}</div>
         <Toaster position="bottom-left" reverseOrder={false} />
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

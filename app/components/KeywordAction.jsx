@@ -80,16 +80,16 @@ export default function KeywordAction({
       <div className="pt-5">
         <div class="relative overflow-x-auto  flex items-center  ">
           {keywordType.length > 0 ? (
-            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <table class="w-full text-sm text-left text-gray-900  ">
               <tbody>
                 {keywordType?.map((item) => (
                   <tr
-                    class="bg-white  dark:bg-gray-900  px-[10px]"
+                    class="bg-white px-[10px]"
                     style={{ border: "1px solid rgb(226 232 240)" }}
                   >
                     <td
                       scope="row"
-                      class="px-2 text-[13px] py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="px-2 text-[13px] py-2 font-medium text-gray-900 whitespace-nowrap  "
                     >
                       {item?.word}
                     </td>
