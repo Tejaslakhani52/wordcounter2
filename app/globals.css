@@ -158,3 +158,16 @@ input:focus {
 .img-responsive {
   display: none !important;
 }
+
+select:focus {
+  outline: none;
+}
+
+select {
+  width: 100px;
+  text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
