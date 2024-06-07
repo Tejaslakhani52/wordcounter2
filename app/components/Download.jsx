@@ -6,7 +6,7 @@ const formatDuration = (totalSeconds) => {
   return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
 };
 
-async function fetchData(inputUrl, retries = 3, delay = 1000) {
+async function fetchData(inputUrl, retries = 3, delay = 2000) {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fetch(
