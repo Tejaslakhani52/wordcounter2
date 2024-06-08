@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Header from "./components/Header";
 import { Toaster } from "react-hot-toast";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Facebook Downloader",
@@ -34,7 +35,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="mt-[80px]">{children}</div>
         <Toaster position="bottom-left" reverseOrder={false} />
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
