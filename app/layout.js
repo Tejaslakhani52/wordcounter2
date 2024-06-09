@@ -1,17 +1,16 @@
-import Head from "next/head";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import Header from "./components/Header";
-import { Toaster } from "react-hot-toast";
+"use client";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Head from "next/head";
+import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
-
-export const metadata = {
-  title: "Facebook Downloader",
-  description: "",
-};
+import Header from "./components/Header";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
+  const url = window.location.pathname;
+  const secondPath = url.split("/")[1];
+  const thirdPath = url.split("/")[2];
+
   return (
     <html lang="en">
       <Head>
@@ -32,10 +31,10 @@ export default function RootLayout({ children }) {
         ></link>
       </Head>
       <body style={{ fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
-        <Header />
+        <Header lang={secondPath} path={thirdPath} />
         <div className="mt-[80px]">{children}</div>
         <Toaster position="bottom-left" reverseOrder={false} />
-        <Footer />
+        <Footer lang={secondPath} />
       </body>
     </html>
   );

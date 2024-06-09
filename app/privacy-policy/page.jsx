@@ -2,7 +2,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="w-[75%] mx-auto   max-md:w-[95%]">
+    <div className="w-[75%] mx-auto max-md:w-[95%]">
       <h1 className="text-[25px] text_linear font-semibold mb-3">
         Privacy Policy
       </h1>

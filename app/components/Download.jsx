@@ -34,16 +34,13 @@ async function fetchData(inputUrl, retries = 3, delay = 2000) {
   }
 }
 
-export default function Download() {
+export default function Download(props) {
   const videoRef = useRef(null);
   const [duration, setDuration] = useState(null);
-  console.log("duration", duration);
   const [inputUrl, setInputUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState(null);
   const [openVideoModal, setOpenVideoModal] = useState(false);
-  console.log("data", data);
-
   const [error, setError] = useState(null);
 
   const handleInputChange = (e) => {
@@ -98,11 +95,9 @@ export default function Download() {
       {!data && (
         <>
           <h1 className="text-[25px] font-semibold text_linear text-center mb-3">
-            Facebook Downloader
+            {props.title}
           </h1>
-          <p className="text-center">
-            Convert and download Facebook videos in MP4, MP3 for free
-          </p>
+          <p className="text-center">{props.text} </p>
 
           {loading ? (
             <div className="py-5">
@@ -112,31 +107,39 @@ export default function Download() {
               />
 
               <p className="text-center text_linear text-[15px]">
-                Retrieving data, please wait a few seconds!
+                {props.load}
               </p>
             </div>
           ) : (
-            <div className="flex w-[70%] mx-auto my-5 border_linear  max-sm:w-full">
-              <div className="flex w-full ">
-                <div className="w-full">
-                  <input
-                    type="text"
-                    placeholder="Enter the Facebook video link here"
-                    className="h-full px-[15px] w-full"
-                    value={inputUrl}
-                    onChange={handleInputChange}
-                  />
+            <div>
+              <div className="flex max-sm:flex-col w-[70%] mx-auto my-5 max-sm:py-3 border_linear  max-sm:w-full">
+                <div className="flex w-full">
+                  <div className="w-full">
+                    <input
+                      type="text"
+                      placeholder={props.placeHolder}
+                      className="h-full px-[15px] w-full"
+                      value={inputUrl}
+                      onChange={handleInputChange}
+                    />
+                  </div>
                 </div>
-                {/* <div className="flex items-center justify-center bg-white cursor-pointer">
-                <i class="fa-solid fa-clipboard text-[20px] px-[20px]"></i>
-              </div> */}
+                <div className="max-sm:hidden">
+                  <button
+                    className="bg_linear whitespace-nowrap text-white px-[45px] max-sm:px-[20px] py-[12px] max-sm:py-[7px]"
+                    onClick={handleDownload}
+                  >
+                    {props.button}
+                  </button>
+                </div>
               </div>
-              <div className="">
+
+              <div className="hidden max-sm:block">
                 <button
-                  className="bg_linear text-white px-[45px] max-sm:px-[20px] py-[12px] max-sm:py-[7px]"
+                  className="bg_linear whitespace-nowrap text-white px-[45px] w-full max-sm:px-[20px] py-[12px]"
                   onClick={handleDownload}
                 >
-                  Download
+                  {props.button}
                 </button>
               </div>
             </div>
@@ -185,7 +188,7 @@ export default function Download() {
                     Render
                   </th>
                   <th scope="col" class="px-6 py-3">
-                    Download
+                    {props.tableT2}
                   </th>
                 </tr>
               </thead>
@@ -193,36 +196,38 @@ export default function Download() {
                 <tr class="border-b">
                   <th
                     scope="row"
-                    class="px-6 py-2 font-medium whitespace-nowrap "
+                    class="px-6 py-3 font-medium whitespace-nowrap "
                   >
                     720p (HD)
                   </th>
                   <td class="px-6 py-2">No</td>
                   <td class="px-6 py-2">
-                    <button
-                      className="bg_linear text-white px-[15px] py-[5px] text-[12px] rounded-[4px]"
-                      onClick={handleDownload720}
+                    <a
+                      href={data?.dl1?.url}
+                      className="bg_linear text-white px-[15px] py-[10px] text-[12px] rounded-[4px]"
+                      download={true}
                     >
-                      Download
-                    </button>
+                      {props.tableT2}
+                    </a>
                   </td>
                 </tr>
                 <tr class="bg-white">
                   <th
                     scope="row"
-                    class="px-6 py-2 font-medium whitespace-nowrap "
+                    class="px-6 py-3 font-medium whitespace-nowrap "
                   >
                     360p (SD)
                   </th>
                   <td class="px-6 py-2">No</td>
                   <td class="px-6 py-2">
                     {" "}
-                    <button
-                      className="bg_linear text-white px-[15px] py-[5px] text-[12px] rounded-[4px]"
-                      onClick={handleDownload360}
+                    <a
+                      href={data?.dl0?.url}
+                      className="bg_linear text-white px-[15px] py-[10px] text-[12px] rounded-[4px]"
+                      download={true}
                     >
-                      Download
-                    </button>
+                      {props.tableT2}
+                    </a>
                   </td>
                 </tr>
               </tbody>
@@ -236,7 +241,7 @@ export default function Download() {
                 window.location.reload();
               }}
             >
-              Download more videos
+              {props.more}
             </button>
           </div>
         </div>
