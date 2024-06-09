@@ -7,9 +7,14 @@ import Header from "./components/Header";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
-  const url = window.location.pathname;
-  const secondPath = url.split("/")[1];
-  const thirdPath = url.split("/")[2];
+  let secondPath;
+  let thirdPath;
+
+  if (window) {
+    const url = window.location.pathname;
+    secondPath = url.split("/")[1];
+    thirdPath = url.split("/")[2];
+  }
 
   return (
     <html lang="en">
