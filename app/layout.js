@@ -10,11 +10,11 @@ export default function RootLayout({ children }) {
   let secondPath;
   let thirdPath;
 
-  if (window) {
-    const url = window.location.pathname;
-    secondPath = url.split("/")[1];
-    thirdPath = url.split("/")[2];
-  }
+  // if (window) {
+  //   const url = window.location.pathname;
+  //   secondPath = url.split("/")[1];
+  //   thirdPath = url.split("/")[2];
+  // }
 
   return (
     <html lang="en">
