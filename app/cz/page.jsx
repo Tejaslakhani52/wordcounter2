@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>Stáhněte si videa z Facebooku online - zdarma a rychle</title>
+      <meta
+        name="description"
+        content="Stáhněte si videa z Facebooku rychle a snadno. Uložte si jakékoli video z Facebooku v HD rozlišení bez nutnosti softwaru. Jednoduchý, rychlý a bezplatný stahovač videa pro všechna zařízení."
+      />
       <Download
         title="Stahovač videí z Facebooku"
         text="Stáhněte si vysoce kvalitní videa z Facebooku v rozlišení 1080p, 2k a 4k."
@@ -90,7 +95,7 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Proč byste měli používat FBDownloader.to pro stahování videí z
+            Proč byste měli používat FBDownloaderr.net pro stahování videí z
             Facebooku?
           </h2>
 

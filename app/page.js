@@ -1,14 +1,15 @@
 "use client";
-import { useEffect } from "react";
 import Download from "./components/Download";
 import FDownloaderContent from "./components/FDownloaderContent";
-import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const router = useRouter();
-
   return (
     <div>
+      <title>Download Facebook Video Online - Free & Fast</title>
+      <meta
+        name="description"
+        content="Download Facebook videos online quickly and easily. Save any Facebook video in HD without software. Simple, fast, and free video downloader for all devices."
+      />
       <Download
         title="Facebook Video Downloader"
         text="Download high-quality Facebook videos in 1080p, 2k, and 4k."

@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function sayfa() {
   return (
     <div>
+      <title>Facebook Videosunu Online İndirin - Ücretsiz & Hızlı</title>
+      <meta
+        name="description"
+        content="Facebook videolarını online olarak hızlı ve kolay bir şekilde indirin. Herhangi bir Facebook videosunu yazılım olmadan HD olarak kaydedin. Tüm cihazlar için basit, hızlı ve ücretsiz video indirme aracı."
+      />
       <Download
         title="Facebook Video İndirici"
         text="Facebook videolarını 1080p, 2k ve 4k kalitesinde indirin."
@@ -89,7 +94,7 @@ export default function sayfa() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Facebook Videolarını İndirmek İçin Neden FBDownloader.to
+            Facebook Videolarını İndirmek İçin Neden FBDownloaderr.net
             Kullanmalısınız?
           </h2>
           <p className=" mb-3">

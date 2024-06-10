@@ -5,6 +5,13 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>
+        Descarga gratis carretes de Facebook con nuestra herramienta online
+      </title>
+      <meta
+        name="description"
+        content="Descarga fácilmente carretes de Facebook en alta calidad con nuestra herramienta sencilla, rápida y gratuita. ¡Guarda tus videos favoritos para verlos sin conexión y compártelos en cualquier momento y lugar!"
+      />
       <Download
         title="Descargar video de Facebook Reels"
         text="Obtenga videos de alta calidad de Facebook Reels en 1080p, 2k, 4k y 8k con esta herramienta de descarga."

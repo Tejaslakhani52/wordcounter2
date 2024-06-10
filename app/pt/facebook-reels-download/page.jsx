@@ -5,6 +5,13 @@ import React from "react";
 export default function pagina() {
   return (
     <div>
+      <title>
+        Baixe vídeos do Facebook Reels gratuitamente - Ferramenta online
+      </title>
+      <meta
+        name="description"
+        content="Baixe facilmente os Reels do Facebook em alta qualidade com nossa ferramenta simples, rápida e gratuita. Salve seus vídeos favoritos para assistir offline e compartilhá-los a qualquer hora, em qualquer lugar!"
+      />
       <Download
         title="Baixar vídeo do Facebook Reels"
         text="Obtenha vídeos do Facebook Reels em 1080p, 2k, 4k e 8k com esta ferramenta de download."

@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>온라인에서 무료 & 빠르게 페이스북 비디오 다운로드</title>
+      <meta
+        name="description"
+        content="빠르고 쉽게 온라인에서 페이스북 비디오를 다운로드하세요. 소프트웨어 없이 모든 페이스북 비디오를 HD 화질로 저장하세요. 모든 기기에서 사용 가능한 간편하고 빠르고 무료한 비디오 다운로더입니다."
+      />
       <Download
         title="Facebook 비디오 다운로더"
         text="1080p, 2k 및 4k에서 고품질 Facebook 비디오를 다운로드하세요."

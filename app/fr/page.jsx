@@ -5,6 +5,13 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>
+        Téléchargez des vidéos Facebook en ligne - Gratuit et rapide
+      </title>
+      <meta
+        name="description"
+        content="Téléchargez des vidéos Facebook en ligne rapidement et facilement. Enregistrez n'importe quelle vidéo Facebook en HD sans logiciel. Téléchargeur de vidéos simple, rapide et gratuit pour tous les appareils."
+      />
       <Download
         title="Téléchargeur de vidéos Facebook"
         text="Téléchargez des vidéos de haute qualité sur Facebook en 1080p, 2k et 4k."
@@ -92,8 +99,8 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Pourquoi devriez-vous utiliser FBDownloader.to pour télécharger des
-            vidéos Facebook ?
+            Pourquoi devriez-vous utiliser FBDownloaderr.net pour télécharger
+            des vidéos Facebook ?
           </h2>
 
           <p className=" mb-3">

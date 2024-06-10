@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>Скачать видео с Facebook онлайн - Бесплатно и быстро</title>
+      <meta
+        name="description"
+        content="Быстро и легко загружайте видео с Facebook. Сохраняйте любые видео с Facebook в формате HD без программного обеспечения. Простая, быстрая и бесплатная загрузка видео для всех устройств."
+      />
       <Download
         title="Загрузка видео с Facebook"
         text="Загружайте видео высокого качества с Facebook в разрешениях 1080p, 2k и 4k."
@@ -89,7 +94,7 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Почему стоит использовать FBDownloader.to длязагрузки видео с
+            Почему стоит использовать FBDownloaderr.net длязагрузки видео с
             Facebook?
           </h2>{" "}
           <p className=" mb-3">

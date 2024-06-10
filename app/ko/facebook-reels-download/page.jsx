@@ -5,6 +5,11 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>무료 페이스북 릴즈 다운로드 온라인 도구</title>
+      <meta
+        name="description"
+        content="간편하고 빠르며 무료 도구를 사용하여 페이스북 릴즈를 고화질로 쉽게 다운로드하세요. 좋아하는 비디오를 오프라인에서 시청하고 언제 어디서든 공유하세요!"
+      />
       <Download
         title="페이스북 리얼 동영상 다운로드"
         text="이 다운로더 도구를 사용하여 1080p, 2k, 4k 및 8k의 고품질 페이스북 리얼 동영상을 가져올 수 있습니다."

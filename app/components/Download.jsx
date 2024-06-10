@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { toast } from "react-hot-toast";
 
 const formatDuration = (totalSeconds) => {
   const minutes = Math.floor(totalSeconds / 60);
@@ -34,6 +35,12 @@ async function fetchData(inputUrl, retries = 3, delay = 2000) {
   }
 }
 
+const isFacebookVideoUrl = (url) => {
+  const facebookVideoRegex =
+    /^(https?:\/\/)?(www\.)?(facebook\.com\/.*\/videos\/|fb\.watch\/).+$/;
+  return facebookVideoRegex.test(url);
+};
+
 export default function Download(props) {
   const videoRef = useRef(null);
   const [duration, setDuration] = useState(null);
@@ -56,6 +63,13 @@ export default function Download(props) {
   };
 
   const handleDownload = async () => {
+    if (!isFacebookVideoUrl(inputUrl)) {
+      setError(
+        "Error: Url is not supported, only Facebook.com and Fb.watch domains are supported"
+      );
+      return;
+    }
+
     setLoading(true);
     setError(null);
     setData(null);
@@ -112,36 +126,43 @@ export default function Download(props) {
             </div>
           ) : (
             <div>
-              <div className="flex max-sm:flex-col w-[70%] mx-auto my-5 max-sm:py-3 border_linear  max-sm:w-full">
-                <div className="flex w-full">
-                  <div className="w-full">
-                    <input
-                      type="text"
-                      placeholder={props.placeHolder}
-                      className="h-full px-[15px] w-full"
-                      value={inputUrl}
-                      onChange={handleInputChange}
-                    />
+              <div>
+                <div className="flex max-sm:flex-col w-[70%] mx-auto my-5 max-sm:py-3 border_linear  max-sm:w-full">
+                  <div className="flex w-full">
+                    <div className="w-full">
+                      <input
+                        type="text"
+                        placeholder={props.placeHolder}
+                        className="h-full px-[15px] w-full"
+                        value={inputUrl}
+                        onChange={handleInputChange}
+                      />
+                    </div>
+                  </div>
+                  <div className="max-sm:hidden">
+                    <button
+                      className="bg_linear whitespace-nowrap text-white px-[45px] max-sm:px-[20px] py-[12px] max-sm:py-[7px]"
+                      onClick={handleDownload}
+                    >
+                      {props.button}
+                    </button>
                   </div>
                 </div>
-                <div className="max-sm:hidden">
+
+                <div className="hidden max-sm:block">
                   <button
-                    className="bg_linear whitespace-nowrap text-white px-[45px] max-sm:px-[20px] py-[12px] max-sm:py-[7px]"
+                    className="bg_linear whitespace-nowrap text-white px-[45px] w-full max-sm:px-[20px] py-[12px]"
                     onClick={handleDownload}
                   >
                     {props.button}
                   </button>
                 </div>
               </div>
-
-              <div className="hidden max-sm:block">
-                <button
-                  className="bg_linear whitespace-nowrap text-white px-[45px] w-full max-sm:px-[20px] py-[12px]"
-                  onClick={handleDownload}
-                >
-                  {props.button}
-                </button>
-              </div>
+              {error && (
+                <div className="bg-[#ffdd57] w-[70%] max-sm:w-full mx-auto p-[10px] text-center">
+                  {error}
+                </div>
+              )}
             </div>
           )}
         </>

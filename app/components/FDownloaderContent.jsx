@@ -74,14 +74,21 @@ export default function FDownloaderContent() {
         style={{ borderBottom: "1px solid #8080803d" }}
       >
         <h2 className="text-[25px] font-[600] mb-3">
-          Why should you use FBDownloader.to for downloading Facebook videos?
+          Why should you use FBDownloaderr.net for downloading Facebook videos?
         </h2>
 
         <p className=" mb-3">
-          <b>FBVIDDownloader </b>is a free tool that lets you download Facebook
-          videos easily. It works directly in your web browser, allowing you to
-          quickly download videos in MP4 or MP3 format without needing to
-          install any software.
+          <b>FBVIDDownloader </b>is a free tool that lets you{" "}
+          <a
+            href="https://FBDownloaderr.net/en/facebook-reels-download"
+            className="text_linear"
+          >
+            {" "}
+            download Facebook videos
+          </a>{" "}
+          easily. It works directly in your web browser, allowing you to quickly
+          download videos in MP4 or MP3 format without needing to install any
+          software.
         </p>
 
         <p className=" mb-3">

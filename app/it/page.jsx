@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>Scarica video di Facebook online - Gratuito e veloce</title>
+      <meta
+        name="description"
+        content="Scarica rapidamente e facilmente i video di Facebook online. Salva qualsiasi video di Facebook in HD senza software. Downloader video semplice, veloce e gratuito per tutti i dispositivi."
+      />
       <Download
         title="កម្មវិធីទាញយកវីដេអូលើ Facebook"
         text="ទាញយកវីដេអូលើ Facebook ដែលមានសមត្ថភាពខ្ពស់ដោយប្រើជាក់លាក់ក្នុងការសម្រួលបរិបទ 1080p, 2k និង 4k។"
@@ -80,7 +85,8 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            ហេតុអ្វីអ្នកគួរតែប្រើ FBDownloader.to ដើម្បីទាញយកវីដេអូលើ Facebook?
+            ហេតុអ្វីអ្នកគួរតែប្រើ FBDownloaderr.net ដើម្បីទាញយកវីដេអូលើ
+            Facebook?
           </h2>
           <p className=" mb-3">
             <b>FBVIDDownloader</b> គឺជា​ឧបករណ៍​មួយដែល

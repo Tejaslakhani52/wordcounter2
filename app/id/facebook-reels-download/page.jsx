@@ -5,86 +5,93 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>Unduh Reels Facebook Gratis Online</title>
+      <meta
+        name="description"
+        content="Unduh Reels Facebook dengan mudah dalam kualitas tinggi menggunakan alat kami yang simpel, cepat, dan gratis. Simpan video favorit Anda untuk ditonton secara offline dan bagikan kapan saja, di mana saja!"
+      />
+
       <Download
-        title="Scarica video di Facebook Reels"
-        text="Ottieni video di alta qualità di Facebook Reels in 1080p, 2k, 4k e 8k con questo strumento di download."
-        placeHolder="Inserisci qui il link del video di Facebook Reels"
-        button="Scarica"
-        tableT1="Qualità"
-        tableT2="Scarica"
-        more="Scarica più video"
-        load="Recupero dati, attendere qualche secondo!"
+        title="Unduh video Facebook Reels"
+        text="Dapatkan video Facebook Reels berkualitas tinggi dalam 1080p, 2k, 4k, dan 8k dengan alat pengunduh ini."
+        placeHolder="Masukkan tautan video Facebook Reels di sini"
+        button="Unduh"
+        tableT1="Kualitas"
+        tableT2="Unduh"
+        more="Unduh lebih banyak video"
+        load="Mendapatkan data, harap tunggu beberapa detik!"
       />
 
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">
-            Scarica video Reels online da Facebook
+            Unduh video Reels secara online dari Facebook
           </h2>
 
           <p className="mb-3">
-            FBDownloaderr.net è uno strumento versatile progettato per scaricare
-            video di Facebook Reels online. Con il nostro servizio, puoi
-            scaricare video di Facebook Reels nella massima qualità, incluso
-            Full HD, 1080p, 2k, 4k e persino 8k con audio. A differenza di altri
-            strumenti che limitano la qualità a HD, FBDownloaderr.net garantisce
-            di ottenere la migliore risoluzione possibile.
+            FBDownloaderr.net adalah alat serbaguna yang dirancang untuk
+            mengunduh video Facebook Reels secara online. Dengan layanan kami,
+            Anda dapat mengunduh video Facebook Reels dalam kualitas tertinggi,
+            termasuk Full HD, 1080p, 2k, 4k, dan bahkan 8k dengan suara. Tidak
+            seperti alat lain yang membatasi Anda pada kualitas HD,
+            FBDownloaderr.net memastikan Anda mendapatkan yang terbaik resolusi
+            yang tersedia untuk pengalaman menonton yang jernih.
           </p>
           <p className="mb-3">
-            Il nostro downloader di Facebook Reels ti permette di salvare i
-            video di Reels direttamente sul tuo dispositivo nei formati .mp3 e
-            .mp4 in modo rapido. Basta incollare il link di Facebook Reels nella
-            casella di input sul nostro sito, e puoi scaricare qualsiasi video
-            di Facebook Reels senza sforzo.
+            Pengunduh Facebook Reels kami memungkinkan Anda menyimpan video
+            Reels langsung ke perangkat Anda dalam format .mp3 dan .mp4 dengan
+            cepat. Cukup tempelkan tautan Facebook Reels ke dalam kotak input di
+            situs kami, dan Anda dapat mengunduh video Facebook Reels apa pun
+            dengan mudah.
           </p>
           <p className="mb-3">
-            FBDownloaderr.net supporta tutti i dispositivi, che tu stia usando
-            un PC, tablet o telefono (iPhone, Android). Puoi scaricare i video
-            di Facebook Reels utilizzando qualsiasi browser web senza la
-            necessità di installare alcun software. Goditi download di video di
-            Facebook Reels senza problemi e di alta qualità con
-            FBDownloaderr.net.
+            FBDownloaderr.net mendukung semua perangkat, apakah Anda menggunakan
+            PC, tablet, atau telepon (iPhone, Android). Anda dapat mengunduh
+            video Facebook Reels menggunakan browser web tanpa perlu menginstal
+            perangkat lunak apa pun. Nikmati pengunduhan video Facebook Reels
+            yang lancar dan berkualitas tinggi dengan FBDownloaderr.net.
           </p>
         </div>
 
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">
-            Come scaricare un video di Facebook?
+            Cara mengunduh Video Facebook?
           </h2>
 
           <p className="mb-3 ">
-            <b>Apri Facebook: </b>
-            Avvia l'app Facebook sul tuo telefono o visita{" "}
+            <b>Buka Facebook: </b>
+            Buka aplikasi Facebook di ponsel Anda atau kunjungi{" "}
             <a href="https://www.facebook.com/" className="text_linear">
               {" "}
               Facebook.com.
             </a>{" "}
-            sul tuo browser web.
+            di peramban web Anda.
           </p>
 
           <p className="mb-3 ">
-            <b>Copia il link del video: </b>
-            Trova il video che vuoi scaricare. Fai clic sul pulsante{" "}
-            <b> "Condividi" </b> sotto il video, quindi seleziona{" "}
-            <b>"Copia link".</b>
+            <b>Salin Tautan Video: </b>
+            Temukan video yang ingin Anda unduh. Klik tombol <b>
+              {" "}
+              "Bagikan"{" "}
+            </b>{" "}
+            di bawah video, lalu pilih <b>"Salin tautan."</b>
           </p>
 
           <p className="mb-3 ">
-            <b>Visita FBDownloaderr.net: </b>
-            Apri il tuo browser web e vai su{" "}
+            <b>Kunjungi FBDownloaderr.net: </b>
+            Buka peramban web Anda dan pergi ke{" "}
             <a href="https://FBDownloaderr.net/" className="text_linear">
               {" "}
               FBDownloaderr.net
             </a>{" "}
-            Incolla il link di Facebook copiato nella casella di input e premi
-            il pulsante "Scarica".
+            Tempelkan tautan Facebook yang disalin ke dalam kotak input dan
+            tekan tombol "Unduh."
           </p>
 
           <p className="mb-3 ">
-            <b>Scegli il formato e scarica: </b>
-            Seleziona il formato MP4 o MP3. Fai clic sul pulsante "Scarica" o
-            "Elabora" e attendi qualche secondo affinché il file sia pronto per
-            il download sul tuo dispositivo.
+            <b>Pilih Format dan Unduh: </b>
+            Pilih format MP4 atau MP3. Klik tombol "Unduh" atau "Render" dan
+            tunggu beberapa detik agar file siap diunduh ke perangkat Anda.
           </p>
         </div>
 
@@ -93,161 +100,159 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Perché dovresti utilizzare FBDownloaderr.net per scaricare Facebook
-            Reels?
+            Mengapa Anda harus menggunakan FBDownloaderr.net untuk mengunduh
+            Facebook Reels?
           </h2>
 
           <h3 className="text-[18px] font-[600] mb-3">
-            1. Caratteristiche principali di FBDownloader:
+            1. Fitur Utama FBDownloader:
           </h3>
 
           <p className="mb-3">
-            Benvenuto su FBDownloaderr.net, la tua destinazione gratuita per
-            scaricare video di Facebook Reels con facilità e qualità superiore.
-            Ecco perché dovresti scegliere il nostro principale vantaggio:
+            Selamat datang di FBDownloaderr.net, tujuan gratis Anda untuk
+            mengunduh video Facebook Reels dengan mudah dan kualitas superior.
+            Inilah mengapa Anda harus memilih fitur utama kami:
           </p>
 
           <div className="ml-5">
             <h4 className="text-[18px] font-semibold">
-              Download di qualità superiore
+              Unduhan Kualitas Unggul
             </h4>
             <p className="mb-3">
-              FBDownloaderr.net offre una qualità di download impareggiabile,
-              consentendo di salvare video di Facebook Reels in Full HD, 1080p,
-              2k, 4k e persino 8k con audio. A differenza di altri strumenti che
-              ti limitano a HD qualità, ci assicuriamo di ottenere la migliore
-              risoluzione disponibile per un esperienza di visualizzazione
-              cristallina.
+              FBDownloaderr.net menawarkan kualitas unduhan yang tak
+              tertandingi, memungkinkan Anda menyimpan video Facebook Reels
+              dalam resolusi Full HD, 1080p, 2k, 4k, dan bahkan 8k dengan suara.
+              Tidak seperti alat lain yang membatasi Anda pada kualitas HD, kami
+              memastikan Anda mendapatkan resolusi terbaik yang tersedia untuk
+              pengalaman menonton yang jernih.
             </p>
 
             <h4 className="text-[18px] font-semibold">
-              Opzioni di formato versatile
+              Opsi Format Yang Fleksibel
             </h4>
             <p className="mb-3">
-              Il nostro downloader di Facebook Reels offre la flessibilità di
-              salvare video nei formati .mp3 e .mp4 in modo rapido e facile. Che
-              tu voglia guardare il video in alta definizione o estrarre l'
-              audio per l'ascolto, FBDownloaderr.net ti offre le opzioni di cui
-              hai bisogno.
+              Pengunduh Facebook Reels kami menyediakan fleksibilitas untuk
+              menyimpan video dalam format .mp3 dan .mp4 dengan cepat dan mudah.
+              Apakah Anda ingin menonton video dalam definisi tinggi atau
+              mengekstrak audio untuk mendengarkan, FBDownloaderr.net memberikan
+              opsi yang Anda butuhkan.
             </p>
 
             <h4 className="text-[18px] font-semibold">
-              Interfaccia utente intuitiva
+              Antarmuka Yang Ramah Pengguna
             </h4>
             <p className="mb-3">
-              Abbiamo progettato il nostro strumento per essere incredibilmente
-              facile da usare. Basta incollare il link di Facebook Reels nella
-              casella di input sul nostro sito e tu puoi scaricare qualsiasi
-              video in pochi secondi. Nessun passaggio complicato o conoscenza
-              tecnica richiesta - solo download rapidi e semplici.
+              Kami telah merancang alat kami agar sangat mudah digunakan. Cukup
+              tempelkan tautan Facebook Reels ke dalam kotak input di situs web
+              kami, dan Anda dapat mengunduh video apa pun dalam hitungan detik.
+              Tidak ada langkah rumit atau pengetahuan teknis yang
+              diperlukan—hanya pengunduhan yang cepat dan sederhana.
             </p>
 
             <h4 className="text-[18px] font-semibold">
-              Compatibilità multi-dispositivo
+              Kompatibilitas Antar Perangkat
             </h4>
-
             <p className="mb-3">
-              FBDownloaderr.net supporta tutti i dispositivi, inclusi PC,
-              tablet, e telefoni (iPhone e Android). Puoi scaricare video di
-              Facebook Reels utilizzando qualsiasi browser web, eliminando la
-              necessità di installare alcun software. Goditi la libertà di
-              scaricare video su qualsiasi dispositivo, in qualsiasi momento.
+              FBDownloaderr.net mendukung semua perangkat, termasuk PC, tablet,
+              dan telepon (iPhone dan Android). Anda dapat mengunduh video
+              Facebook Reels menggunakan browser web tanpa perlu menginstal
+              perangkat lunak apa pun, menghilangkan kebutuhan untuk menginstal
+              perangkat lunak apa pun. Nikmati kebebasan untuk mengunduh video
+              pada perangkat apa pun, kapan pun.
             </p>
 
             <h4 className="text-[18px] font-semibold">
-              Servizio veloce e affidabile
+              Layanan Cepat dan Andal
             </h4>
             <p className="mb-3">
-              Prova download rapidi e affidabili con FBDownloaderr.net. Il
-              nostro servizio è ottimizzato per la velocità, garantendo di
-              ottenere i tuoi video senza lunghe attese o interruzioni. Scarica
-              i tuoi Reels preferiti senza sforzo e goditeli offline quando
-              vuoi.
+              Rasakan pengunduhan yang cepat dan andal dengan FBDownloaderr.net.
+              Layanan kami dioptimalkan untuk kecepatan, memastikan Anda
+              mendapatkan video Anda tanpa waktu tunggu atau gangguan yang lama.
+              Unduh Reels favorit Anda dengan mudah dan nikmati mereka secara
+              offline kapan saja Anda mau.
             </p>
 
             <h4 className="text-[18px] font-semibold">
-              Nessuna installazione di software richiesta
+              Tidak Diperlukan Instalasi Perangkat Lunak
             </h4>
             <p className="mb-3">
-              A differenza di alcuni altri strumenti, FBDownloaderr.net non
-              richiede di scaricare o installare alcun software. Accedi e usa il
-              nostro servizio direttamente dal tuo browser web, rendendo il
-              processo semplice e senza problemi. Risparmia spazio sul tuo
-              dispositivo ed evita installazioni inutili.
+              Tidak seperti beberapa alat lain, FBDownloaderr.net tidak
+              memerlukan Anda untuk mengunduh atau menginstal perangkat lunak
+              apa pun. Akses dan gunakan layanan kami langsung dari browser web
+              Anda, membuat prosesnya sederhana dan bebas masalah. Hemat ruang
+              di perangkat Anda dan hindari instalasi yang tidak perlu.
             </p>
 
-            <h4 className="text-[18px] font-semibold">Sicuro e privato</h4>
+            <h4 className="text-[18px] font-semibold">Aman dan Pribadi</h4>
             <p className="mb-3">
-              Diamo priorità alla tua privacy e sicurezza. FBDownloaderr.net è
-              progettato per essere sicuro da utilizzare, proteggendo i tuoi
-              dati e garantendo un processo di download sicuro. Scarica con
-              fiducia sapendo che le tue informazioni sono al sicuro.
+              Kami memberikan prioritas pada privasi dan keamanan Anda.
+              FBDownloaderr.net dirancang untuk digunakan dengan aman,
+              melindungi data Anda dan memastikan proses pengunduhan yang aman.
+              Unduh dengan percaya diri mengetahui informasi Anda aman.
             </p>
           </div>
 
           <h3 className="text-[18px] font-[600] mb-3">
-            2. Scegli FBDownloaderr.net per la migliore esperienza di download
-            di Facebook Reels
+            2. Pilih FBDownloaderr.net untuk Pengalaman Mengunduh Facebook Reels
+            Terbaik
           </h3>
 
           <p className="mb-3">
-            Goditi download di alta qualità, facilità d'uso e completa
-            convenienza con il nostro strumento di prim'ordine. Rendi
-            FBDownloaderr.net la tua scelta preferita per scaricare Facebook
-            Reels e vivi il meglio della tecnologia di download video. Inizia a
-            scaricare oggi stesso!
+            Nikmati pengunduhan berkualitas tinggi, kemudahan penggunaan, dan
+            kemudahan lengkap dengan alat terbaik kami. Jadikan
+            FBDownloaderr.net pilihan utama Anda untuk mengunduh Facebook Reels
+            dan rasakan yang terbaik dalam teknologi pengunduhan video. Mulai
+            mengunduh hari ini!
           </p>
         </div>
 
         <div>
           <h3 className="text-center text-[22px] font-semibold mb-3">
-            Domande frequenti
+            Pertanyaan yang Sering Diajukan
           </h3>
 
           <h4 className="text-[18px] font-semibold">
-            1. Come faccio a scaricare Facebook Reels?
+            1. Bagaimana cara mengunduh Facebook Reels?
           </h4>
           <p className="mb-3">
-            Per scaricare Facebook Reels, basta incollare l'URL del Reel nel
-            campo designato sulla nostra homepage e fare clic sul pulsante
-            "Scarica". Il video verrà elaborato e sarà disponibile per il
-            download in pochi istanti.
+            Untuk mengunduh Facebook Reels, cukup tempelkan URL Reel ke bidang
+            yang ditentukan di halaman utama kami dan klik tombol "Unduh". Video
+            akan diproses dan tersedia untuk diunduh dalam beberapa saat.
           </p>
 
           <h4 className="text-[18px] font-semibold">
-            2. È gratuito utilizzare questo downloader?
+            2. Apakah gratis menggunakan pengunduh ini?
           </h4>
           <p className="mb-3">
-            Sì, il nostro Downloader di Facebook Reels è completamente gratuito.
-            Non ci sono costi nascosti o tasse di abbonamento.
+            Ya, Pengunduh Facebook Reels kami benar-benar gratis untuk
+            digunakan. Tidak ada biaya tersembunyi atau biaya langganan.
           </p>
 
           <h4 className="text-[18px] font-semibold">
-            3. Posso scaricare Reels sul mio dispositivo mobile?
+            3. Bisakah saya mengunduh Reels di perangkat seluler saya?
           </h4>
           <p className="mb-3">
-            Assolutamente! Il nostro sito web è ottimizzato per i dispositivi
-            mobili, permettendoti di scaricare Facebook Reels direttamente sul
-            tuo smartphone o tablet.
+            Tentu saja! Situs web kami ramah seluler, memungkinkan Anda
+            mengunduh Facebook Reels langsung ke smartphone atau tablet Anda.
           </p>
 
           <h4 className="text-[18px] font-semibold">
-            4. I Reels scaricati sono salvati in alta qualità?
+            4. Apakah Reels yang diunduh disimpan dalam kualitas tinggi?
           </h4>
           <p className="mb-3">
-            Sì, ci impegniamo a fornire la massima qualità disponibile per i
-            Reels scaricati. La qualità del video dipenderà dal caricamento
-            originale.
+            Ya, kami berusaha menyediakan kualitas tertinggi yang tersedia untuk
+            Reels yang diunduh. Kualitas video akan bergantung pada unggahan
+            asli.
           </p>
 
           <h4 className="text-[18px] font-semibold">
-            5. È legale scaricare Facebook Reels?
+            5. Apakah legal mengunduh Facebook Reels?
           </h4>
           <p className="mb-3">
-            Scaricare Facebook Reels è generalmente per uso personale solamente.
-            Assicurati di rispettare le leggi sul copyright e i termini di
-            servizio di Facebook non distribuendo contenuti scaricati senza
-            autorizzazione.
+            Mengunduh Facebook Reels umumnya hanya untuk penggunaan pribadi.
+            Pastikan Anda menghormati hukum hak cipta dan ketentuan layanan
+            Facebook dengan tidak mendistribusikan konten yang diunduh tanpa
+            izin.
           </p>
         </div>
       </div>

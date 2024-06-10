@@ -5,6 +5,13 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>
+        Завантаження відео з Facebook онлайн - Безкоштовно та швидко
+      </title>
+      <meta
+        name="description"
+        content="Швидко та легко завантажуйте відео з Facebook онлайн. Збережіть будь-яке відео з Facebook у форматі HD без програмного забезпечення. Простий, швидкий і безкоштовний завантажувач відео для всіх пристроїв."
+      />
       <Download
         title="Завантажувач відео Facebook"
         text="Завантажуйте високоякісні відео Facebook у форматі 1080p, 2k і 4k."
@@ -87,8 +94,8 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Чому варто використовувати FBDownloader.to для завантаження відео з
-            Facebook?
+            Чому варто використовувати FBDownloaderr.net для завантаження відео
+            з Facebook?
           </h2>
           <p className=" mb-3">
             <b>FBVIDDownloader </b>– це безкоштовний інструмент, який дозволяє

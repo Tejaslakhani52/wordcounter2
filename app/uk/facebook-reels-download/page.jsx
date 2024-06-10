@@ -5,6 +5,11 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>Завантажити відеоролики Facebook Reels безкоштовно</title>
+      <meta
+        name="description"
+        content="Легко завантажуйте відеоролики Facebook Reels у високій якості за допомогою нашого простого, швидкого та безкоштовного інструмента. Зберігайте улюблені відео для перегляду офлайн та діліться ними будь-де та будь-коли!"
+      />
       <Download
         title="Завантажити відео Facebook Reels"
         text="Отримуйте відео Facebook Reels у високій якості 1080p, 2k, 4k та 8k за допомогою цього інструменту завантаження."

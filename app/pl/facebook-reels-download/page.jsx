@@ -5,6 +5,11 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>Bezpłatne narzędzie do pobierania rolek z Facebooka online</title>
+      <meta
+        name="description"
+        content="Łatwo pobieraj rolki z Facebooka w wysokiej jakości za pomocą naszego prostego, szybkiego i darmowego narzędzia. Zapisz swoje ulubione filmy, aby oglądać je offline i udostępniać je w dowolnym miejscu i czasie!"
+      />
       <Download
         title="Pobierz film z Facebook Reels"
         text="Otrzymaj filmy Facebook Reels w wysokiej jakości w rozdzielczości 1080p, 2k, 4k i 8k za pomocą tego narzędzia do pobierania."

@@ -5,6 +5,13 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>
+        Stáhněte si Facebook Reels pomocí bezplatného online nástroje
+      </title>
+      <meta
+        name="description"
+        content="Snadno si stáhněte Facebook Reels ve vysoké kvalitě pomocí našeho jednoduchého, rychlého a bezplatného nástroje. Uložte si své oblíbené videa pro sledování offline a sdílejte je kdykoli a kdekoli!"
+      />
       <Download
         title="Stáhněte si video z Facebook Reels"
         text="Získejte videa Facebook Reels ve vysoké kvalitě v rozlišení 1080p, 2k, 4k a 8k pomocí tohoto nástroje pro stahování."

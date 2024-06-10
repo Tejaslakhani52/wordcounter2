@@ -5,6 +5,11 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>Descărcați gratuit role Facebook online</title>
+      <meta
+        name="description"
+        content="Descărcați cu ușurință role Facebook în calitate înaltă cu instrumentul nostru simplu, rapid și gratuit. Salvați videoclipurile preferate pentru a le viziona offline și pentru a le partaja oricând și oriunde!"
+      />
       <Download
         title="Descărcați videoclipurile Facebook Reels"
         text="Obțineți videoclipuri Facebook Reels de înaltă calitate în 1080p, 2k, 4k și 8k cu acest instrument de descărcare."

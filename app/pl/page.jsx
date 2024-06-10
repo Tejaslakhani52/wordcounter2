@@ -5,6 +5,12 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>Pobierz wideo z Facebooka online - Bezpłatnie i szybko</title>
+      <meta
+        name="description"
+        content="Szybkie i łatwe pobieranie filmów z Facebooka online. Zapisz dowolny film z Facebooka w jakości HD bez oprogramowania. Prosty, szybki i darmowy program do pobierania filmów na wszystkie urządzenia."
+      />
+
       <Download
         title="Pobieranie filmów z Facebooka"
         text="Pobieraj wysokiej jakości filmy z Facebooka w jakości 1080p, 2k i 4k."
@@ -89,7 +95,7 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Dlaczego warto używać FBDownloader.to do pobierania filmów z
+            Dlaczego warto używać FBDownloaderr.net do pobierania filmów z
             Facebooka?
           </h2>
 

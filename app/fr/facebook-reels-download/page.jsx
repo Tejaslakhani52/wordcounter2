@@ -5,6 +5,11 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>Téléchargez gratuitement des bobines Facebook en ligne</title>
+      <meta
+        name="description"
+        content="Téléchargez facilement des bobines Facebook en haute qualité grâce à notre outil simple, rapide et gratuit. Enregistrez vos vidéos préférées pour les regarder hors ligne et les partager à tout moment, en tout lieu !"
+      />
       <Download
         title="Télécharger des vidéos Facebook Reels"
         text="Obtenez des vidéos Facebook Reels de haute qualité en 1080p, 2k, 4k et 8k avec cet outil de téléchargement."

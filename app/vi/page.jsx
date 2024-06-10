@@ -5,6 +5,13 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>
+        Tải xuống video Facebook trực tuyến - Miễn phí & Nhanh chóng
+      </title>
+      <meta
+        name="description"
+        content="Tải xuống video Facebook trực tuyến nhanh chóng và dễ dàng. Lưu bất kỳ video Facebook nào ở định dạng HD mà không cần phần mềm. Trình tải video đơn giản, nhanh chóng và miễn phí cho tất cả các thiết bị."
+      />
       <Download
         title="Trình tải video Facebook"
         text="Tải xuống các video Facebook chất lượng cao ở độ phân giải 1080p, 2k và 4k."
@@ -86,7 +93,7 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Tại sao bạn nên sử dụng FBDownloader.to để tải video Facebook?
+            Tại sao bạn nên sử dụng FBDownloaderr.net để tải video Facebook?
           </h2>
           <p className=" mb-3">
             <b>FBVIDDownloader </b>là một công cụ miễn phí cho phép bạn dễ dàng

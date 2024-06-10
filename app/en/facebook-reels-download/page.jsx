@@ -5,6 +5,11 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <title>Download Facebook Reels Online Free Tool</title>
+      <meta
+        name="description"
+        content="Easily download Facebook Reels in high quality with our simple, fast, and free tool. Save your favorite videos to watch offline and share them anytime, anywhere!"
+      />
       <Download
         title="Download Facebook Reels video"
         text="Get high-quality Facebook Reels videos in 1080p, 2k, 4k, and 8k with this downloader tool."
@@ -33,8 +38,13 @@ export default function page() {
           <p className="mb-3">
             Our Facebook Reels downloader allows you to save Reels videos
             directly to your device in both .mp3 and .mp4 formats swiftly.
-            Simply paste the Facebook Reels link into the input box on our site,
-            and you can download any Facebook Reels video effortlessly.
+            Simply paste the{" "}
+            <a href="https://FBDownloaderr.net/en" className="text_linear">
+              {" "}
+              Facebook Reels
+            </a>{" "}
+            link into the input box on our site, and you can download any
+            Facebook Reels video effortlessly.
           </p>
           <p className="mb-3">
             FBDownloaderr.net supports all devices, whether you're using a PC,

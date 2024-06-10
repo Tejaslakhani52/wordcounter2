@@ -5,6 +5,11 @@ import React from "react";
 export default function page() {
   return (
     <div dir="rtl" style={{ textAlign: "right" }}>
+      <title>تحميل الريلز من فيسبوك أداة مجانية على الإنترنت</title>
+      <meta
+        name="description"
+        content="قم بتحميل الريلز من فيسبوك بسهولة بجودة عالية باستخدام أداتنا البسيطة والسريعة والمجانية. احفظ فيديوهاتك المفضلة لمشاهدتها في وضع عدم الاتصال ومشاركتها في أي وقت وأي مكان!"
+      />
       <Download
         title="تنزيل فيديوهات Facebook Reels"
         text="احصل على فيديوهات Facebook Reels عالية الجودة بدقة 1080 بكسل، 2K، 4K، و 8K مع هذه الأداة للتنزيل."

@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>Descărcați videoclipuri Facebook online - Gratuit și rapid</title>
+      <meta
+        name="description"
+        content="Descărcați videoclipuri Facebook online rapid și ușor. Salvați orice videoclip Facebook în HD fără software. Descărcare video simplă, rapidă și gratuită pentru toate dispozitivele."
+      />
       <Download
         title="Descărcați videoclipuri de pe Facebook"
         text="Descărcați videoclipuri de înaltă calitate de pe Facebook în 1080p, 2k și 4k."
@@ -90,8 +95,8 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            De ce să folosiți FBDownloader.to pentru descărcarea videoclipurilor
-            de pe Facebook?
+            De ce să folosiți FBDownloaderr.net pentru descărcarea
+            videoclipurilor de pe Facebook?
           </h2>
 
           <p className=" mb-3">

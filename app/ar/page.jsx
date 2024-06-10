@@ -5,6 +5,12 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div dir="rtl" style={{ textAlign: "right" }}>
+      <title>تنزيل فيديو فيسبوك اون لاين - مجاني وسريع</title>
+      <meta
+        name="description"
+        content="قم بتنزيل مقاطع فيديو Facebook عبر الإنترنت بسرعة وسهولة. احفظ أي فيديو Facebook بدقة عالية بدون برنامج. أداة تنزيل فيديو بسيطة وسريعة ومجانية لجميع الأجهزة."
+      />
+
       <Download
         title="تنزيل فيديوهات الفيسبوك"
         text="قم بتنزيل فيديوهات الفيسبوك بجودة عالية تصل إلى 1080p, 2k, و4k."
@@ -83,7 +89,7 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            لماذا يجب عليك استخدام FBDownloader.to لتنزيل فيديوهات الفيسبوك؟
+            لماذا يجب عليك استخدام FBDownloaderr.net لتنزيل فيديوهات الفيسبوك؟
           </h2>
 
           <p className="mb-3">

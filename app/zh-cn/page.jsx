@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>免费在线下载 Facebook 视频 - 快速便捷</title>
+      <meta
+        name="description"
+        content="快速轻松地在线下载 Facebook 视频。无需任何软件即可保存任何 Facebook 高清视频。适用于所有设备的简单、快速且免费的视频下载器。"
+      />
       <Download
         title="Facebook视频下载器"
         text="以1080p、2k和4k的高质量下载Facebook视频。"
@@ -77,7 +82,7 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            为什么要使用FBDownloader.to下载Facebook视频？
+            为什么要使用FBDownloaderr.net下载Facebook视频？
           </h2>
 
           <p className=" mb-3">

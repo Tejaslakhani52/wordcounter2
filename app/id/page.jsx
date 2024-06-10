@@ -5,6 +5,11 @@ import Download from "../components/Download";
 export default function page() {
   return (
     <div>
+      <title>Unduh Video Facebook Online - Gratis & Cepat</title>
+      <meta
+        name="description"
+        content="Unduh video Facebook online dengan cepat dan mudah. Simpan video Facebook apa pun dalam HD tanpa perlu software. Pengunduh video yang simpel, cepat, dan gratis untuk semua perangkat."
+      />
       <Download
         title="Pengunduh Video Facebook"
         text="Unduh video Facebook berkualitas tinggi dalam format 1080p, 2k, dan 4k."
@@ -87,8 +92,8 @@ export default function page() {
           style={{ borderBottom: "1px solid #8080803d" }}
         >
           <h2 className="text-[25px] font-[600] mb-3">
-            Mengapa Anda Harus Menggunakan FBDownloader.to untuk Mengunduh Video
-            Facebook?
+            Mengapa Anda Harus Menggunakan FBDownloaderr.net untuk Mengunduh
+            Video Facebook?
           </h2>
 
           <p className=" mb-3">
