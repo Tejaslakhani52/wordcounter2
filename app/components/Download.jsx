@@ -37,7 +37,7 @@ async function fetchData(inputUrl, retries = 3, delay = 2000) {
 
 const isFacebookVideoUrl = (url) => {
   const facebookVideoRegex =
-    /^(https?:\/\/)?(www\.)?(facebook\.com\/.*\/videos\/|fb\.watch\/).+$/;
+    /^(https?:\/\/)?(www\.)?(facebook\.com\/.*\/(posts|videos)\/|fb\.watch\/).+$/;
   return facebookVideoRegex.test(url);
 };
 
@@ -105,7 +105,7 @@ export default function Download(props) {
   };
 
   return (
-    <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
+    <div className="w-[75%] mx-auto py-8 max-sm:py-3 max-md:w-[95%]">
       {!data && (
         <>
           <h1 className="text-[25px] font-semibold text_linear text-center mb-3">
@@ -149,7 +149,7 @@ export default function Download(props) {
                   </div>
                 </div>
 
-                <div className="hidden max-sm:block">
+                <div className="hidden max-sm:block mb-5">
                   <button
                     className="bg_linear whitespace-nowrap text-white px-[45px] w-full max-sm:px-[20px] py-[12px]"
                     onClick={handleDownload}

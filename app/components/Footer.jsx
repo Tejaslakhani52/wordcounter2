@@ -13,7 +13,7 @@ export default function Footer({ lang }) {
           <ul class="flex gap-8 max-sm:gap-4 flex-wrap  items-center mb-6 text-sm font-medium text-gray-900 sm:mb-0 max-md:mt-5   ">
             <span class="block text-sm text-gray-900 sm:text-center max-sm:hidden ">
               © {currentYear}{" "}
-              <a href="https://thewordcounter.online/" class="hover:underline">
+              <a href="https://fbdownloaderr.net/" class="hover:underline">
                 FBDownloaderr.net
               </a>
             </span>

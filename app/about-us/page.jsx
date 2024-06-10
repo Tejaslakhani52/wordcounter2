@@ -9,6 +9,7 @@ export default function page() {
       className="w-[75%] mx-auto max-md:w-[95%]"
       style={{ height: `${screenHeight - 165}px` }}
     >
+      <title>About US - FBDownloaderr.net</title>
       <h1 className="text-[25px] text_linear font-semibold mb-3">About US</h1>
 
       <p className="mb-3">

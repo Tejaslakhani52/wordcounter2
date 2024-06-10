@@ -3,6 +3,7 @@ import React from "react";
 export default function page() {
   return (
     <div className="w-[75%] mx-auto max-md:w-[95%]">
+      <title>Terms of Service - FBDownloaderr.net</title>
       <h1 className="text-[25px] text_linear font-semibold mb-3">
         Terms of Service
       </h1>
