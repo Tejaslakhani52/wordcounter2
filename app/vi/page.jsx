@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Download from "../components/Download";
-import FDownloaderContent from "../components/FDownloaderContent";
 
 export default function page() {
   return (

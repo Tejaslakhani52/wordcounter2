@@ -5,16 +5,21 @@ import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
+import { useEffect, useState } from "react";
 
 export default function RootLayout({ children }) {
-  let secondPath;
-  let thirdPath;
+  const [secondPath, setSecondPath] = useState("");
+  const [thirdPath, setThirdPath] = useState("");
 
-  if (typeof window !== "undefined") {
-    const url = window.location.pathname;
-    secondPath = url.split("/")[1];
-    thirdPath = url.split("/")[2];
-  }
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const url = window.location.pathname;
+      const secondPath = url.split("/")[1];
+      setSecondPath(secondPath);
+      const thirdPath = url.split("/")[2];
+      setThirdPath(thirdPath);
+    }
+  }, []);
 
   return (
     <html lang="en">
