@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import { toast } from "react-hot-toast";
 
 const formatDuration = (totalSeconds) => {
   const minutes = Math.floor(totalSeconds / 60);
@@ -37,7 +36,7 @@ async function fetchData(inputUrl, retries = 3, delay = 2000) {
 
 const isFacebookVideoUrl = (url) => {
   const facebookVideoRegex =
-    /^(https?:\/\/)?(www\.)?(facebook\.com\/.*\/(posts|videos)\/|fb\.watch\/).+$/;
+    /^(?:(?:http|https):\/\/)?(?:www\.)?(?:facebook|fb|m\.facebook)\.(?:com|me)\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w\-]*\/)*|(?:fb\.watch)\/([^\/]+)(?:\/)?/i;
   return facebookVideoRegex.test(url);
 };
 
@@ -86,23 +85,23 @@ export default function Download(props) {
     setData(data);
   };
 
-  const handleDownload360 = () => {
-    const link = document.createElement("a");
-    link.href = data?.dl0?.url;
-    link.download = "FacebookVideo.mp4";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const handleDownload360 = () => {
+  //   const link = document.createElement("a");
+  //   link.href = data?.dl0?.url;
+  //   link.download = "FacebookVideo.mp4";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
 
-  const handleDownload720 = () => {
-    const link = document.createElement("a");
-    link.href = data?.dl1?.url;
-    link.download = "FacebookVideo.mp4";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const handleDownload720 = () => {
+  //   const link = document.createElement("a");
+  //   link.href = data?.dl1?.url;
+  //   link.download = "FacebookVideo.mp4";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
 
   return (
     <div className="w-[75%] mx-auto py-8 max-sm:py-3 max-md:w-[95%]">
