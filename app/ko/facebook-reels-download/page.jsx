@@ -1,5 +1,6 @@
 "use client";
 import Download from "@/app/components/Download";
+import DynamicBox from "@/app/components/DynamicBox";
 import React from "react";
 
 export default function page() {
