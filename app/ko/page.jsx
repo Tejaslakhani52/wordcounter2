@@ -1,6 +1,7 @@
 "use client";
 
 import Download from "../components/Download";
+import DynamicBox from "../components/DynamicBox";
 
 export default function page() {
   return (
