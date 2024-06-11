@@ -1,5 +1,6 @@
 "use client";
 import Download from "@/app/components/Download";
+import DynamicBox from "@/app/components/DynamicBox";
 import React from "react";
 
 export default function page() {
@@ -21,6 +22,14 @@ export default function page() {
         load="Retrieving data, please wait a few seconds!"
       />
 
+      <DynamicBox
+        title="Do you want to download Facebook video?"
+        text="By clicking this button you can go to facebook video downloader page
+          and download any facebook video in good quality."
+        buttonName="Facebook Downloader"
+        link="https://FBDownloaderr.net/en"
+      />
+
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">
@@ -38,13 +47,8 @@ export default function page() {
           <p className="mb-3">
             Our Facebook Reels downloader allows you to save Reels videos
             directly to your device in both .mp3 and .mp4 formats swiftly.
-            Simply paste the{" "}
-            <a href="https://FBDownloaderr.net/en" className="text_linear">
-              {" "}
-              Facebook Reels
-            </a>{" "}
-            link into the input box on our site, and you can download any
-            Facebook Reels video effortlessly.
+            Simply paste the Facebook Reels link into the input box on our site,
+            and you can download any Facebook Reels video effortlessly.
           </p>
           <p className="mb-3">
             FBDownloaderr.net supports all devices, whether you're using a PC,

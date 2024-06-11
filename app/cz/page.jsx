@@ -20,6 +20,13 @@ export default function page() {
         more="Stáhněte více videí"
         load="Načítání dat, prosím počkejte několik sekund!"
       />
+
+      <DynamicBox
+        title="Chcete si stáhnout video z Facebook Reels?"
+        text="Kliknutím na toto tlačítko přejdete na stránku pro stahování videí z Facebook Reels a stáhnete si jakékoli video z Facebook Reels v dobré kvalitě."
+        buttonName="Stahovač z Facebook Reels"
+        link="https://FBDownloaderr.net/cz/facebook-reels-download"
+      />
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

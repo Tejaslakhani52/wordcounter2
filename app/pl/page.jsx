@@ -21,6 +21,13 @@ export default function page() {
         more="Pobierz więcej filmów"
         load="Pobieranie danych, proszę czekać kilka sekund!"
       />
+
+      <DynamicBox
+        title="Czy chcesz pobrać wideo z Facebook Reels?"
+        text="Klikając ten przycisk, możesz przejść do strony pobierania wideo z Facebooka i pobrać dowolny film z Facebook Reels w dobrej jakości."
+        buttonName="Pobierz wideo z Facebook Reels"
+        link="https://FBDownloaderr.net/pl/facebook-reels-download"
+      />
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

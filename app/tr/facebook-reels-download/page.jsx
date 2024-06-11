@@ -1,5 +1,6 @@
 "use client";
 import Download from "@/app/components/Download";
+import DynamicBox from "@/app/components/DynamicBox";
 import React from "react";
 
 export default function page() {
@@ -19,6 +20,13 @@ export default function page() {
         tableT2="İndirme"
         more="Daha fazla video indir"
         load="Veri alınıyor, lütfen birkaç saniye bekleyin!"
+      />
+
+      <DynamicBox
+        title="Facebook videosu indirmek ister misiniz?"
+        text="Bu düğmeye tıklayarak Facebook video indirici sayfasına gidebilir ve herhangi bir Facebook videosunu yüksek kalitede indirebilirsiniz."
+        buttonName="Facebook İndirici"
+        link="https://FBDownloaderr.net/tr"
       />
 
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">

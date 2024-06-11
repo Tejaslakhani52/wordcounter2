@@ -20,6 +20,13 @@ export default function page() {
         more="Unduh lebih banyak video"
         load="Mengambil data, harap tunggu beberapa detik!"
       />
+
+      <DynamicBox
+        title="Ingin download video Facebook Reels?"
+        text="Dengan mengklik tombol ini, Anda dapat membuka halaman pengunduh video Facebook dan download video Facebook Reels dalam kualitas bagus."
+        buttonName="Pengunduh Facebook Reels"
+        link="https://FBDownloaderr.net/id/facebook-reels-download"
+      />
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

@@ -1,6 +1,7 @@
 "use client";
 
 import Download from "../components/Download";
+import DynamicBox from "../components/DynamicBox";
 
 export default function page() {
   return (
@@ -21,6 +22,14 @@ export default function page() {
         more="تنزيل المزيد من الفيديوهات"
         load="جاري استرجاع البيانات، يرجى الانتظار بضع ثوانٍ!"
       />
+
+      <DynamicBox
+        title="هل ترغب في تنزيل مقطع فيديو من Facebook Reels؟"
+        text="بنقرك على هذا الزر، يمكنك الانتقال إلى صفحة تنزيل مقاطع فيديو Facebook Reels وتنزيل أي مقطع فيديو بجودة عالية." // Arabic text
+        buttonName="تنزيل Facebook Reels"
+        link="https://FBDownloaderr.net/ar/facebook-reels-download"
+      />
+
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

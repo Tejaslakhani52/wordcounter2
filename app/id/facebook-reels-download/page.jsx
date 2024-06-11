@@ -1,5 +1,6 @@
 "use client";
 import Download from "@/app/components/Download";
+import DynamicBox from "@/app/components/DynamicBox";
 import React from "react";
 
 export default function page() {
@@ -20,6 +21,13 @@ export default function page() {
         tableT2="Unduh"
         more="Unduh lebih banyak video"
         load="Mendapatkan data, harap tunggu beberapa detik!"
+      />
+
+      <DynamicBox
+        title="Ingin download video Facebook?"
+        text="Dengan mengklik tombol ini, Anda dapat membuka halaman pengunduh video Facebook dan download video Facebook dalam kualitas bagus."
+        buttonName="Pengunduh Facebook"
+        link="https://FBDownloaderr.net/id"
       />
 
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">

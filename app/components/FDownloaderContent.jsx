@@ -78,17 +78,10 @@ export default function FDownloaderContent() {
         </h2>
 
         <p className=" mb-3">
-          <b>FBVIDDownloader </b>is a free tool that lets you{" "}
-          <a
-            href="https://FBDownloaderr.net/en/facebook-reels-download"
-            className="text_linear"
-          >
-            {" "}
-            download Facebook videos
-          </a>{" "}
-          easily. It works directly in your web browser, allowing you to quickly
-          download videos in MP4 or MP3 format without needing to install any
-          software.
+          <b>FBVIDDownloader </b>is a free tool that lets you download Facebook
+          videos easily. It works directly in your web browser, allowing you to
+          quickly download videos in MP4 or MP3 format without needing to
+          install any software.
         </p>
 
         <p className=" mb-3">

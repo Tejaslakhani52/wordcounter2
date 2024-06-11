@@ -1,5 +1,6 @@
 "use client";
 import Download from "./components/Download";
+import DynamicBox from "./components/DynamicBox";
 import FDownloaderContent from "./components/FDownloaderContent";
 
 export default function Home() {
@@ -19,6 +20,14 @@ export default function Home() {
         tableT2="Download"
         more="Download more videos"
         load="Retrieving data, please wait a few seconds!"
+      />
+
+      <DynamicBox
+        title="Do you want to download Facebook video?"
+        text="By clicking this button you can go to facebook video downloader page
+          and download any facebook video in good quality."
+        buttonName="Facebook Downloader"
+        link="https://FBDownloaderr.net/en"
       />
       <FDownloaderContent />
     </div>

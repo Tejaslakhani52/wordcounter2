@@ -1,5 +1,6 @@
 "use client";
 import Download from "../components/Download";
+import DynamicBox from "../components/DynamicBox";
 
 export default function page() {
   return (
@@ -19,6 +20,15 @@ export default function page() {
         more="ดาวน์โหลดวิดีโอเพิ่มเติม"
         load="กำลังเรียกรายการข้อมูล โปรดรอสักครู่!"
       />
+
+      <DynamicBox
+        title="คุณต้องการดาวน์โหลดวิดีโอ Facebook หรือไม่?"
+        text="คลิกปุ่มนี้เพื่อไปยังหน้าดาวน์โหลดวิดีโอ Facebook 
+        และดาวน์โหลดวิดีโอ Facebook ใด ๆ ในคุณภาพที่ดี"
+        buttonName="ดาวน์โหลด Facebook"
+        link="https://FBDownloaderr.net/th"
+      />
+
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

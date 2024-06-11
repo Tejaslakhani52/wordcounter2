@@ -21,6 +21,13 @@ export default function page() {
         load="데이터를 검색하는 중입니다. 잠시 기다려주세요!"
       />
 
+      <DynamicBox
+        title="페이스북 비디오 다운로드 하시겠습니까?"
+        text="이 버튼을 클릭하면 페이스북 비디오 다운로더 페이지로 이동하여  좋은 화질의 모든 페이스북 비디오를 다운로드할 수 있습니다."
+        buttonName="페이스북 다운로더"
+        link="https://FBDownloaderr.net/ko"
+      />
+
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

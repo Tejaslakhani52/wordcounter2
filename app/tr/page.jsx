@@ -1,6 +1,7 @@
 "use client";
 
 import Download from "../components/Download";
+import DynamicBox from "../components/DynamicBox";
 
 export default function sayfa() {
   return (
@@ -20,6 +21,14 @@ export default function sayfa() {
         more="Daha fazla video indir"
         load="Veri alınıyor, lütfen birkaç saniye bekleyin!"
       />
+
+      <DynamicBox
+        title="Facebook Reels videosu indirmek ister misiniz?"
+        text="Bu düğmeye tıklayarak Facebook video indirici sayfasına gidebilir ve herhangi bir Facebook Reels videosunu yüksek kalitede indirebilirsiniz."
+        buttonName="Facebook Reels İndirici"
+        link="https://FBDownloaderr.net/tr/facebook-reels-download"
+      />
+
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

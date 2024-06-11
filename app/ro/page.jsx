@@ -20,6 +20,13 @@ export default function page() {
         more="Descărcați mai multe videoclipuri"
         load="Se recuperează datele, vă rugăm să așteptați câteva secunde!"
       />
+
+      <DynamicBox
+        title="Vrei să descarci videoclipuri din Facebook Reels?"
+        text="Dând clic pe acest buton, poți merge la pagina de descărcare video Facebook și poți descărca orice videoclip din Facebook Reels la o calitate bună."
+        buttonName="Descărcător Facebook Reels"
+        link="https://FBDownloaderr.net/ro/facebook-reels-download"
+      />
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">

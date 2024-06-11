@@ -1,5 +1,6 @@
 "use client";
 import Download from "@/app/components/Download";
+import DynamicBox from "@/app/components/DynamicBox";
 import React from "react";
 
 export default function page() {
@@ -21,6 +22,13 @@ export default function page() {
         tableT2="Herunterladen"
         more="Weitere Videos herunterladen"
         load="Daten abrufen, bitte warten Sie einige Sekunden!"
+      />
+
+      <DynamicBox
+        title="Möchtest du ein Facebook Video herunterladen?"
+        text="Mit einem Klick auf diese Schaltfläche gelangst du zu einer Facebook-Video-Downloader-Seite, auf der du Facebook-Videos in guter Qualität herunterladen kannst."
+        buttonName="Facebook Downloader"
+        link="https://FBDownloaderr.net/de"
       />
 
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">

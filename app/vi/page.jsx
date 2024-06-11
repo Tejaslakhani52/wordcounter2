@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Download from "../components/Download";
+import DynamicBox from "../components/DynamicBox";
 
 export default function page() {
   return (
@@ -17,6 +18,13 @@ export default function page() {
         text="Tải xuống các video Facebook chất lượng cao ở độ phân giải 1080p, 2k và 4k."
         placeHolder="Nhập liên kết video Facebook vào đây"
         button="Tải xuống"
+      />
+
+      <DynamicBox
+        title="Bạn có muốn tải xuống video Facebook Reels không?"
+        text="Bằng cách nhấp vào nút này, bạn có thể chuyển đến trang tải xuống video Facebook và tải xuống bất kỳ video Facebook Reels nào với chất lượng tốt."
+        buttonName="Trình tải xuống Facebook Reels"
+        link="https://FBDownloaderr.net/vi/facebook-reels-download"
       />
 
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">

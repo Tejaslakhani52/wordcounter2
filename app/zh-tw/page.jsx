@@ -1,6 +1,7 @@
 "use client";
 
 import Download from "../components/Download";
+import DynamicBox from "../components/DynamicBox";
 
 export default function page() {
   return (
@@ -20,6 +21,13 @@ export default function page() {
         tableT2="下載"
         more="下載更多影片"
         load="正在取得資料，請稍候幾秒鐘！"
+      />
+
+      <DynamicBox
+        title="您想要下載 Facebook Reels 影片嗎？"
+        text="點擊此按鈕，您就可以前往 Facebook 影片下載器頁面，並以高品質下載任何 Facebook Reels 影片。"
+        buttonName="Facebook Reels 下載器"
+        link="https://FBDownloaderr.net/zh-tw/facebook-reels-download"
       />
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">

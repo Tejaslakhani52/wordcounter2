@@ -1,5 +1,6 @@
 "use client";
 import Download from "@/app/components/Download";
+import DynamicBox from "@/app/components/DynamicBox";
 import React from "react";
 
 export default function page() {
@@ -19,6 +20,13 @@ export default function page() {
         tableT2="下载"
         more="下载更多视频"
         load="正在检索数据，请稍候几秒钟！"
+      />
+
+      <DynamicBox
+        title="想要下载 Facebook 视频吗？"
+        text="点击此按钮，您将转到 Facebook 视频下载器页面，并可以高质量下载任何 Facebook 视频。"
+        buttonName="Facebook 视频下载器"
+        link="https://FBDownloaderr.net/zh-cn"
       />
 
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">

@@ -20,6 +20,13 @@ export default function page() {
         more="और वीडियो डाउनलोड करें"
         load="डेटा पुनः प्राप्त किया जा रहा है, कृपया कुछ सेकंड इंतजार करें!"
       />
+
+      <DynamicBox
+        title="क्या आप फेसबुक रील्स वीडियो डाउनलोड करना चाहते हैं?"
+        text="इस बटन को क्लिक करके आप फेसबुक वीडियो डाउनलोडर पेज पर जा सकते हैं और किसी भी फेसबुक रील्स वीडियो को अच्छी क्वालिटी में डाउनलोड कर सकते हैं."
+        buttonName="फेसबुक रील्स डाउनलोडर"
+        link="https://FBDownloaderr.net/hi/facebook-reels-download"
+      />
       <div className="w-[75%] mx-auto py-8 max-md:w-[95%]">
         <div className="mb-[40px]">
           <h2 className="text-[25px] font-[600] mb-3">
